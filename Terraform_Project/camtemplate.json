@@ -1,0 +1,14 @@
+{
+   "name": "Terraform_Project",
+   "description": "Description for Terraform_Project.",
+   "type": "userCreated",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Other"
+   },
+   "metadata": {
+     "displayName": "Terraform_Project",
+     "bullets": []
+   }
+ }
