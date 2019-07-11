@@ -1,12 +1,8 @@
 {
   "input_datatypes": [ 
     {
-      "name": "vSphereCloud",
-      "label": "vSphere Cloud Parms"
-    },
-    {
-      "name": "vSphereVM",
-      "label": "vSphere Virtual Machine Parms"
+      "name": "camlabDT",
+      "label": "camlabDT"
     }
   ],
   "input_namespaces": [ ],
@@ -118,7 +114,7 @@
       "label": "Vm 1 Number Of Vcpu",
       "description": "Number of virtual cpu's.",
       "type": "string",
-      "default": "",
+      "default": "${camlabDT.cpus}",
       "validation": "",
       "group_name": "instances",
       "required": true,
@@ -132,7 +128,7 @@
       "label": "Vm 1 Memory",
       "description": "Memory allocation.",
       "type": "string",
-      "default": "",
+      "default": "${camlabDT.memory}",
       "validation": "",
       "group_name": "instances",
       "required": true,
